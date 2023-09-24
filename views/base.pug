@@ -1,0 +1,24 @@
+Doctype 
+html
+  head
+    title Shreya Dance Academy
+    block scripts
+      script(src='/index.js')
+    block style 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul
+          div#logo
+              img(src="/static/img/logo.png")
+              | SDA
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class Info]
+          li #[a(href="/contact") Contact Us]
+    block content
+    block foot
+       footer#footer
+           div.footer Copyright © 2023 ShreyaDanceAcademy.com | All Rights Reserved

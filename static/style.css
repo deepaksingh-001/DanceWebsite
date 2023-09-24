@@ -1,0 +1,127 @@
+body{
+  margin: 0%;
+}
+#navbar {
+  background-color: #d43b3b;
+  font-family: "Yeon Sung";
+  padding: 18px, 14px;
+  margin-top: 0px;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin: auto;
+}
+#navbar li {
+  list-style: none;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 11px 28px;
+  font-size: 25px;
+  color: whitesmoke;
+}
+#navbar li a:hover {
+  color: black;
+}
+#introSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "ZCOOL QingKe HuangYou";
+  font-size: 65px;
+  align-items: center;
+  background: center/cover no-repeat url("/static/bg.jpg");
+  height: 500px;
+  background-color: red;
+}
+#missionSection {
+  margin: auto;
+  width: 100%;
+}
+#missionSection div.small {
+  font-size: 42px;
+  padding: 5px;
+}
+#missionSection h2{
+  font-family: 'yeon sung';
+  text-align: center;
+  padding: 12px;
+  font-size: 35px;
+}
+#sponsorsSection {
+  height: 250px;
+  background-color: white;
+}
+#sponsorsSection h2{
+  font-family: 'yeon sung';
+  text-align: center;
+  padding: 12px;
+  font-size: 35px;
+}
+#sponsors{
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  max-width: 100px;
+  margin: auto
+}
+.spImage{
+  align-items: center;
+  height: 80px;
+  margin: 20px;
+}
+#footer {
+  background-color: black;
+  height: 50px;
+  padding-top: 20px;
+}
+.footer{
+  text-align: center;
+  color: white;
+}
+#logo{
+  display: flex;
+  color: white;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 28px;
+  margin-right: 40px;
+}
+#logo img{
+  height: 42px;
+  filter: invert(1);
+  padding-right: 8px;
+}
+.card {
+  border: 2px solid red;
+  border-radius: 10px;
+  width: 30%;
+  margin: 23px 20px;
+  height: 200px;
+  display: inline-block;
+}
+.card h3{
+  text-align: center;
+  margin: 12px
+}
+.card-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-img{
+  height: 131px;
+  padding: 0 14px;
+  margin: 5px 9px;
+}
+.card-img img{
+  height: inherit; 
+}
+.card-content p{
+  font-size: 18px;
+
+}
